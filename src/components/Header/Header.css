@@ -1,0 +1,111 @@
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.856);
+    color: #fff;
+    padding: 20px;
+}
+h1 {
+    margin: 2;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+#menu {
+    display: none;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 2%;
+    transition: opacity 0.5s ease, height 0.5s ease; /* Added height transition */
+    overflow: hidden; /* Hide overflow content */
+}
+.menu_item {
+    border: 2px solid white;
+    border-radius: 100px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-color:#00000049;
+    margin: 0%;
+    padding: 3%;
+    font-size: 30px;
+    font-family: 'Comic Sans MS', sans-serif;
+    height: 100%;
+    align-items: center;
+}
+
+.menu_item:hover{
+    background-color: #ffffffc0;
+    color: black;
+}
+
+#menu_button:hover{
+    background-color: black;
+}
+
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: color 0.3s ease; 
+}
+
+#menu_button {
+    position:absolute;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+/*menu decoration (humburger button)*/
+.bar{
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin-left: 12%;
+    margin-top: 15%;
+    transition: 0.4s;
+}
+/*animation*/
+.change .bar#bar1{
+    transform: translate(0, 13px) rotate(-45deg);
+}
+.change .bar#bar2{
+    opacity: 0;
+}
+.change .bar#bar3{
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+
+#logo_container{
+    display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}

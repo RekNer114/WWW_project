@@ -1,0 +1,34 @@
+.frontSide{
+  height: 400px;
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 5%;
+  margin: 5%;
+  background-color: antiquewhite;
+  
+}
+.backSide{
+    margin-right: 10px;
+    height: auto;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: 5%;
+    background-color: black;
+    color: white;
+   
+}
+ .img_overlay{
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  height: 70%;
+  background-color: rgba(0, 0, 0, 0.219); /* Semi-transparent overlay */
+ }
+
+.img_styles{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+  }
