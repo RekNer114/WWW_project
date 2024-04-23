@@ -4,11 +4,37 @@
     padding-bottom: 2%;
     padding-top: 1%;
     font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
     font-size: 32px;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-p{
+.text{
+    position: relative;
     font-size: 25px;
+    margin-top: 3%;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    z-index: 20;
 
+}
+
+.about_cont{
+    height:600px;
+    background-image: url('../assets/images/about_back.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.dim{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.555);
+    z-index: 0;
 }
