@@ -53,9 +53,9 @@ function Header(){
         <nav id="menu">
         
         
-            <button class= "menu_item" onClick={() => handleMenu('/home')}>Home</button>
-           <button class="menu_item" onClick={() => handleMenu('/destinations')}>Destinations</button>
-            <button class = "menu_item" onClick={() => handleMenu('/about')}>About us</button>
+            <button className= "menu_item" onClick={() => handleMenu('/home')}>Home</button>
+           <button className="menu_item" onClick={() => handleMenu('/destinations')}>Destinations</button>
+            <button className = "menu_item" onClick={() => handleMenu('/about')}>About us</button>
             
             
         </nav>

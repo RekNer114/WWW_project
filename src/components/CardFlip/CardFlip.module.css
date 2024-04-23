@@ -1,34 +1,63 @@
-.frontSide{
-  height: 400px;
-  width: 90%;
+.card{
+  margin-left: 10%;
+  
+}
+.frontSide {
+  height: 590px;
+  width: 390px;
   border: 2px solid black;
   border-radius: 5%;
   margin: 5%;
   background-color: antiquewhite;
+  position: relative;
   
 }
-.backSide{
-    margin-right: 10px;
-    height: auto;
-    width: 100%;
-    border: 2px solid black;
-    border-radius: 5%;
-    margin: 5%;
-    background-color: black;
-    color: white;
-   
+.backSide {
+  margin-right: 10px;
+  height: 600px;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 5%;
+  margin: 5%;
+  background-color:rgba(0, 0, 0, 0.281);
+  color: white;
+  position: relative;
 }
- .img_overlay{
+.img_overlay {
   position: absolute;
-  /* top: 0;
-  left: 0; */
+  z-index: 1;
+  top: 0;
+  left: 0; 
   width: 100%;
-  height: 70%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.219); /* Semi-transparent overlay */
- }
+}
 
-.img_styles{
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensure the image covers the container */
-  }
+.img_styles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container */
+  margin: 0;
+  padding: 0;
+}
+
+.destination_name > h1{ 
+  position: relative;
+  z-index: 2;
+  color: rgb(235, 235, 235);
+  font-size: 40px;
+  font-family: 'Comic Sans MS', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.backText{
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 20px;
+  margin-top: 20%;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

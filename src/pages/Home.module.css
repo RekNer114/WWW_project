@@ -63,7 +63,9 @@
 #navigationName{
     background-color: #00000067;
     background-image: url(https://t3.ftcdn.net/jpg/01/02/64/28/360_F_102642850_Mca9lTRDH60DQin39YwCF5Jzd15lcdoo.jpg);
-    background-repeat:inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .carousel_content {
